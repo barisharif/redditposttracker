@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/37891b54-20f9-4a2d-8636-391bcf96906f/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/redditposttracker",
+    "appService.deploySubpath": "."
+}

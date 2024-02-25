@@ -110,7 +110,7 @@ return (
             {posts.map((post) => (
               <li key={post.id}>
                 <div>
-                  <h3>{truncateTitle(post.title)}</h3> {/* Apply truncation here */}
+                  <h3>{truncateTitle(post.title)}</h3> {}
                 </div>
                 <div className="post-actions">
                   <span>Score: {post.score}</span>
@@ -127,7 +127,7 @@ return (
             {favoritePosts.map((post) => (
               <li key={post.id}>
                 <div>
-                  <h3>{truncateTitle(post.title)}</h3> {/* Apply truncation here */}
+                  <h3>{truncateTitle(post.title)}</h3> {}
                 </div>
                 <div className="post-actions">
                   <span>Score: {post.score}</span>
